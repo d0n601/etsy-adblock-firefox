@@ -1,0 +1,21 @@
+{
+
+  "description": "This is a port of the Chrome Extension known as Etsy Adblock, to hide those annoying ads on Etsy.",
+  "manifest_version": 2,
+  "name": "Etsy Adblocker",
+  "version": "1.0",
+  "author": "Ryan Kozak",
+  "homepage_url": "https://github.com/d0n601/etsy-adblocker-firefox",
+  "icons": {
+      "48": "icons/icon-48.png",
+      "96": "icons/icon-96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.etsy.com/*"],
+      "js": ["remove-ads.js"]
+    }
+  ]
+
+}
