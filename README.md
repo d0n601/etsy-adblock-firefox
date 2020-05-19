@@ -1,4 +1,8 @@
-# Etsy Adblock for Firefox
+# Etsy Adblocker
+
+[Download on Mozilla.org](https://addons.mozilla.org/addon/etsy-adblocker/)
+
+
 This repository is for the Firefox ad-on ported from the Chrome extension [Etsy Adblock](https://github.com/moodysalem/etsy-adblock), developed by [Moody Salem](https://github.com/moodysalem).
 
 
